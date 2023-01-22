@@ -1,14 +1,20 @@
 import React from "react";
 import JordanCard from "./JordanCard";
 
-function JordanList() {
+function JordanList( {jordanArray}) {
+  const { id } = jordanArray
+console.log(jordanArray);
+
+const jordanDetails = jordanArray.map((shoe) => {
+  return <JordanCard key={id} {...shoe} />;
+})
 
   return (
     <div>
-        <ul className="cards">
         <h1> JORDAN LIST </h1>
-        {/* JordanCard will go here! */}
-
+        <ul className="cards">
+       
+        {jordanDetails}
         </ul>
     </div>
   );

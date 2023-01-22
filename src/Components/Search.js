@@ -1,7 +1,11 @@
 import React from "react";
 
 
-function Search() {
+function Search( {setSearch, search} ) {
+
+function handleChange(e) {
+  setSearch(e.target.value);
+}
 
 
   return (
@@ -9,11 +13,11 @@ function Search() {
       <h1>SEARCH</h1>
         <label htmlFor="search">Search Jordans:</label>
         <input
-          // value={query}
+          value={search}
           type="text"
           id="search"
           placeholder="Type a name to search..."
-          // onChange={handleChange}
+          onChange={handleChange}
         />
     </div>
   );
