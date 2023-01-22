@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+
 import './App.css';
+import React from 'react';
+import MenuHeader from './MenuHeader';
+// import Search from './Search';
+// import Filter from './Filter';
+// import JordanList from './JordanList';
 
 function App() {
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          G L O A T 
+          <MenuHeader />
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+        {/* <div>
+        <h1>G L O A T </h1>
+          <MenuHeader />
+          <Search />
+          <Filter />
+          <JordanList /> 
+        </div> */}
     </div>
   );
 }
