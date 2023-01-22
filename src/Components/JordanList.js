@@ -1,14 +1,12 @@
 import React from "react";
-import MenuHeader from "./MenuHeader";
-
+import JordanCard from "./JordanCard";
 
 function JordanList() {
 
   return (
     <div>
-        <header className=""> <MenuHeader /> </header>
         <ul className="cards">
-
+        <h1> JORDAN LIST </h1>
         {/* JordanCard will go here! */}
 
         </ul>
