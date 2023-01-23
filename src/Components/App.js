@@ -4,19 +4,26 @@ import Search from './Search';
 import About from './About';
 import Filter from './Filter';
 import JordanList from './JordanList';
+import Form from './Form';
 import '../index.css'
 import { useEffect } from 'react';
 import { useState } from 'react';
 import {Favorites} from './Favorites';
 
 function App() {
+  const initialData = {
+      model:'',
+      color:'',
+      size:'',
+      condition:'',
+      price:'',
+      image:'',
+    }
 
-
-  
   const [jordanArray, setJordanArray] = useState ([])
   const [search, setSearch] = useState('')
   const [sortBy, setSortBy] = useState("size")
-
+  const [formData, setFormdata] = useState({})
 
 
   useEffect(() => {
@@ -26,6 +33,24 @@ function App() {
     }, []
   )
 
+  function handleFormChange(e) {
+    const {name, value} = e.target;
+    setFormdata({...formData, [name]: value})
+  }
+
+  function handleSubmit (e) {
+    e.preventDefault();
+    fetch('http://localhost:6001/jordans', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(formData),
+    })
+    .then((response) => response.json())
+    .then(()=> setFormdata([...jordanArray, formData]));
+    setFormdata(initialData)
+  }
 
 
   // console.log(jordanArray)
@@ -35,7 +60,7 @@ function App() {
     .sort((shoe1, shoe2) => {
       if (sortBy === "price") {
         return shoe1.price - shoe2.price
-      } else {
+      } else if (sortBy === "condition") {
         return shoe1.condition.localeCompare(shoe2.condition)
       }
     })
@@ -60,16 +85,17 @@ function App() {
         G L O A T      
       </h1>
       <div>
-      <Search
-      setSearch={setSearch} 
-      search={search}/>
-      <Filter
-      sortBy={sortBy}
-      onChangeSortBy={setSortBy}
-      />
-      <About />
-      <JordanList 
-      jordanArray={filteredArray}/>
+        <Search
+        setSearch={setSearch} 
+        search={search}/>
+        <Filter
+        sortBy={sortBy}
+        onChangeSortBy={setSortBy}
+        />
+        <About />
+        <Form handleSubmit={handleSubmit} formData={formData} handleFormChange={handleFormChange}/>
+        <JordanList 
+        jordanArray={filteredArray}/>
       </div>
     </div>
   );

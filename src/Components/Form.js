@@ -1,18 +1,22 @@
-import React from "react";
+import React, {useState} from "react";
 
+function Form({formData, handleFormChange, handleSubmit}) {
 
-function Form() {
+  const {model, color, size, condition, price, image } = formData
+
 
   return (
-    <div className="new-plant-form">
-      <h2>Sell Your Jordans</h2>
-
-      {/* <form onSubmit={onFormSubmit} > */}
-        {/* <input value= {formData.name} type="text" name="name" placeholder="Plant name" onChange={handleFormSubmit} />
-        <input value= {formData.image} type="text" name="image" placeholder="Image URL" onChange={handleFormSubmit}/>
-        <input value= {formData.price} type="number" name="price" step="0.01" placeholder="Price" onChange={handleFormSubmit} /> */}
+    <div className="new-sneaker-form">
+      <h1>Sell Your Jordans</h1>
+      <form onSubmit={handleSubmit}> 
+        <input onChange={handleFormChange} value={model}  type="text" name="model" placeholder= "Model"  />
+        <input onChange={handleFormChange} value={color} type="text" name="color" placeholder= "Color Way"  />
+        <input onChange={handleFormChange} value={size} type="number" name="size" placeholder= "Size" /> Mens
+        <input onChange={handleFormChange} value={condition} type="text" name="condition" placeholder= "Condition" />
+        <input onChange={handleFormChange} value={price} type="number" name="price" placeholder= "Price" />
+        <input onChange={handleFormChange} value={image} type="text" name="image" placeholder= "Image" />
         <button type="submit">Sell Now</button>
-      {/* </form> */}
+       </form>
     </div>
   );
 }

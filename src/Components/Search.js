@@ -11,7 +11,7 @@ function handleChange(e) {
   return (
     <div class="ui very padded left floated segment">
         <div className="searchbar">
-            <label htmlFor="search">Search Jordans:</label>
+            <label htmlFor="search">Search Jordans: </label>
             <input
               value={search}
               type="text"
