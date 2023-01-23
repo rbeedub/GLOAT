@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Home() {
 return (
@@ -11,9 +12,9 @@ return (
             
      
             <div style={{ margin: "1rem 0" }}>
-                <a className="button" href="/jordans">
+                <Link className="button" to="/jordans">
                 View All Jordans
-                </a>
+                </Link>
             </div>
           
             </div>

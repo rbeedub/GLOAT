@@ -1,22 +1,22 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 
 function Header() {
     return (
 <>
     <div class="ui inverted menu">
-        <a class="active item">
+        <Link class="active item"  to="/">
         Home
-        </a>
-        <a class="item">
+        </Link>>
+        <Link class="item" to="/about">
         About
-        </a>
-        <a class="item">
+        </Link>
+        <Link class="item" to="/jordans/favorites">
         Want
-        </a>
-        <a class="item">
+        </Link>
+        <Link class="item" to="/jordans/form">
         Sell
-        </a>
+        </Link>
     </div>
         <h1 class="ui huge header"> G L O A T </h1>
 </>
