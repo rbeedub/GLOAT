@@ -10,7 +10,8 @@ function handleChange(e) {
 
   return (
     <div class="ui very padded left floated segment">
-        <div className="searchbar">
+        <div class="ui small icon input">
+        <i class="search icon"></i>
             <label htmlFor="search">Search Jordans:</label>
             <input
               value={search}
@@ -25,3 +26,4 @@ function handleChange(e) {
 }
 
 export default Search;
+
