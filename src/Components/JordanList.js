@@ -10,13 +10,17 @@ const jordanDetails = jordanArray.map((shoe) => {
 })
 
   return (
-    <div>
+    <div class="ui hidden divider">
+      <div class="ui center aligned segment">
+        <br></br>
         <h1> JORDAN LIST </h1>
-        <ul className="cards">
-       
+        <br></br>
+        <ul className="cards"> 
         {jordanDetails}
         </ul>
+      </div>
     </div>
+
   );
 }
 

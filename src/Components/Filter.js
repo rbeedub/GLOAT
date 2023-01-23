@@ -7,10 +7,8 @@ function Filter( {sortBy, onChangeSortBy} ) {
 
 return (
     <>
-        <div className="ui item">
-            <label>Sort by</label>
-        </div>
-        <div className="ui item">
+        <div class="ui very padded right floated segment">
+            <label>Sort by  </label>
             <select 
                 value={sortBy} 
                 onChange={(e) => onChangeSortBy(e.target.value)}

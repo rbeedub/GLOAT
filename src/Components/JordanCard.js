@@ -7,10 +7,10 @@ function JordanCard( {id, model, condition, color, image, price, size } ) {
 
 const [showDetails, setShowDetails]= useState(false)
 
+
   return (
     <li className="card">
         <img src={image} alt={model} />
-        <p> 🖤 </p>
         <div>
             {showDetails && 
             <JordanCardDetails
@@ -21,6 +21,7 @@ const [showDetails, setShowDetails]= useState(false)
             size={size}
             />}
         </div>
+        <br></br>
         <button className= "ui button"
         onClick={() => setShowDetails(!showDetails)}>
             {showDetails ? "Less info" : "More info"}
@@ -30,6 +31,5 @@ const [showDetails, setShowDetails]= useState(false)
 
     }
 
-      
 
 export default JordanCard;

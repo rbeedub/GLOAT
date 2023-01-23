@@ -7,9 +7,12 @@ import JordanList from './JordanList';
 import '../index.css'
 import { useEffect } from 'react';
 import { useState } from 'react';
+import {Favorites} from './Favorites';
 
 function App() {
 
+
+  
   const [jordanArray, setJordanArray] = useState ([])
   const [search, setSearch] = useState('')
   const [sortBy, setSortBy] = useState("size")
@@ -22,6 +25,7 @@ function App() {
         .then(setJordanArray)
     }, []
   )
+
 
 
   // console.log(jordanArray)
@@ -38,9 +42,23 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-          G L O A T 
-      </header>
+      <div class="ui inverted menu">
+        <a class="active item">
+          Home
+        </a>
+        <a class="item">
+          About
+        </a>
+        <a class="item">
+          Want
+        </a>
+        <a class="item">
+          Sell
+        </a>
+      </div>
+      <h1 class="ui huge header">
+        G L O A T      
+      </h1>
       <div>
       <Search
       setSearch={setSearch} 
@@ -48,12 +66,10 @@ function App() {
       <Filter
       sortBy={sortBy}
       onChangeSortBy={setSortBy}
-
       />
       <About />
       <JordanList 
       jordanArray={filteredArray}/>
-  
       </div>
     </div>
   );
