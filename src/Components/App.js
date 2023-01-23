@@ -4,11 +4,12 @@ import Search from './Search';
 import About from './About';
 import Filter from './Filter';
 import JordanList from './JordanList';
-import Form from './Form';
+import NewShoeForm from './NewShoeForm';
 import '../index.css'
 import { useEffect } from 'react';
 import { useState } from 'react';
 import {Favorites} from './Favorites';
+
 
 function App() {
   const initialData = {
@@ -93,7 +94,7 @@ function App() {
         onChangeSortBy={setSortBy}
         />
         <About />
-        <Form handleSubmit={handleSubmit} formData={formData} handleFormChange={handleFormChange}/>
+        <NewShoeForm handleSubmit={handleSubmit} formData={formData} handleFormChange={handleFormChange}/>
         <JordanList 
         jordanArray={filteredArray}/>
       </div>
