@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 
-function Filter( {sortBy, onChangeSortBy} ) {
+function Filter( {sortBy, onChangeSortBy } ) {
 
 
 
