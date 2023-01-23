@@ -4,7 +4,7 @@ import { Link, NavLink } from 'react-router-dom';
 function Header() {
     return (
 <>
-    <div class="ui inverted menu">
+    <div class="ui fluid text five item menu">
         <Link class="active item"  to="/">
         Home
         </Link>
@@ -17,7 +17,7 @@ function Header() {
         <Link class="item" to="/jordans/favorites">
         Want
         </Link>
-        <Link class="item" to="/jordans/form">
+        <Link class="item" to="/jordans/new">
         Sell
         </Link>
     </div>

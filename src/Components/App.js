@@ -6,10 +6,7 @@ import About from './About';
 import JordanList from './JordanList';
 
 import NewShoeForm from './NewShoeForm';
-
-
 import Header from './Header';
-
 import '../index.css'
 import { useState } from "react";
 import { useEffect } from "react";
@@ -80,15 +77,13 @@ function App() {
      <Header />
 
  <Switch>  
-    <Route path ="/jordans/form">
-     <Form />
+    <Route path ="/jordans/new">
+     <NewShoeForm />
     </Route>
-
 
     <Route exact path="/">
      <Home />      
     </Route>
-    
    
     <Route path="/about"> 
      <About />
