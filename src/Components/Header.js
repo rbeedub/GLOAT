@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 function Header() {
     return (
@@ -7,7 +7,10 @@ function Header() {
     <div class="ui inverted menu">
         <Link class="active item"  to="/">
         Home
-        </Link>>
+        </Link>
+        <Link class="item" to="/jordans">
+        Jordans
+        </Link>
         <Link class="item" to="/about">
         About
         </Link>
