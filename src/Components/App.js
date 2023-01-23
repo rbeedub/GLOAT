@@ -4,12 +4,17 @@ import Favorites from './Favorites';
 import Home from './Home';
 import About from './About';
 import JordanList from './JordanList';
-import Form from './Form';
+
+import NewShoeForm from './NewShoeForm';
+
+
 import Header from './Header';
+
 import '../index.css'
 import { useState } from "react";
 import { useEffect } from "react";
 import { Switch, Route } from 'react-router-dom';
+
 
 
 
@@ -71,6 +76,7 @@ function App() {
 
   return (
     <div className="App">
+
      <Header />
 
  <Switch>  
@@ -105,6 +111,7 @@ function App() {
 
     
  </Switch>
+
 
       </div>
     
