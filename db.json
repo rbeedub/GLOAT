@@ -1,271 +1,274 @@
 {
-    "jordans": [
-        {
-            "id": 1,
-            "model": "Jordan 1 Retro 'Bred' 2001",
-            "color": "Black/Red",
-            "size": "9M/10.5W",
-            "condition": "Deadstock",
-            "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/295/977/original/14054_00.png.png?action=crop&width=600",
-            "price": "750.00"
-        },
-        { 
-            "id": 2,
-            "model": "Jordan 1 Retro 'Bred' 2001",
-            "color": "Black/Red",
-            "size": "8M/9.5W",
-            "condition": "Slightly Used",
-            "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/295/977/original/14054_00.png.png?action=crop&width=600",
-            "price": "304.00"
-
-        },
-        { 
-            "id": 3,
-            "model": "Jordan 1 Retro 'Bred' 2001",
-            "color": "Black/Red",
-            "size": "7M/8.5W",
-            "condition": "Used",
-            "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/295/977/original/14054_00.png.png?action=crop&width=600",
-            "price": "170.00"
-
-        },
-        { 
-            "id": 4,
-            "model": "Jordan 1 Retro 'Bred' 2001",
-            "color": "Black/Red",
-            "size": "11M/13W",
-            "condition": "Deadstock",
-            "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/295/977/original/14054_00.png.png?action=crop&width=600",
-            "price": "1399.00"
-
-        },
-        { 
-            "id": 5,
-            "model": "Jordan 1 Retro 'Bred' 2001",
-            "color": "Black/Red",
-            "size": "8M/9.5W",
-            "condition": "Used",
-            "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/295/977/original/14054_00.png.png?action=crop&width=600",
-            "price": "220.00"
-
-        },
-        { 
-            "id": 6,
-            "model": "Shelflife x Air Jordan 2 Retro Low",
-            "color": "White/Sail/Light Bone/Bright Mandarin",
-            "size": "8M/9.5W",
-            "condition": "Deadstock",
-            "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/080/197/471/original/1022685_00.png.png?action=crop&width=600",
-            "price": "126.00"
-
-        },
-        { 
-            "id": 7,
-            "model": "Shelflife x Air Jordan 2 Retro Low",
-            "color": "White/Sail/Light Bone/Bright Mandarin",
-            "size": "6M/7.5W",
-            "condition": "Deadstock",
-            "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/080/197/471/original/1022685_00.png.png?action=crop&width=600",
-            "price": "104.00"
-
-        },
-        { 
-            "id": 8,
-            "model": "Shelflife x Air Jordan 2 Retro Low",
-            "color": "White/Sail/Light Bone/Bright Mandarin",
-            "size": "6.5M/8W",
-            "condition": "Deadstock",
-            "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/080/197/471/original/1022685_00.png.png?action=crop&width=600",
-            "price": "134.00"
-
-        },
-        { 
-            "id": 9,
-            "model": "Shelflife x Air Jordan 2 Retro Low",
-            "color": "White/Sail/Light Bone/Bright Mandarin",
-            "size": "7M/8.5W",
-            "condition": "Deadstock",
-            "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/080/197/471/original/1022685_00.png.png?action=crop&width=600",
-            "price": "132.00"
-
-        },
-        { 
-            "id": 10,
-            "model": "Shelflife x Air Jordan 2 Retro Low",
-            "color": "White/Sail/Light Bone/Bright Mandarin",
-            "size": "8.5M/10W",
-            "condition": "Deadstock",
-            "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/080/197/471/original/1022685_00.png.png?action=crop&width=600",
-            "price": "139.00"
-
-        },
-        { 
-            "id": 11,
-            "model": "Shelflife x Air Jordan 2 Retro Low",
-            "color": "White/Sail/Light Bone/Bright Mandarin",
-            "size": "9M/10.5W",
-            "condition": "Deadstock",
-            "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/080/197/471/original/1022685_00.png.png?action=crop&width=600",
-            "price": "127.00"
-
-        },
-        { 
-            "id": 12,
-            "model": "Jordan 3 Retro 'Black Cement' 2001",
-            "color": "Black/Cement",
-            "size": "8M/9.5W",
-            "condition": "Deadstock",
-            "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/078/136/080/original/15109_00.png.png?action=crop&width=600",
-            "price": "454.00"
-
-        },
-        { 
-            "id": 13,
-            "model": "Jordan 3 Retro 'Black Cement' 2001",
-            "color": "Black/Cement",
-            "size": "9M/10.5W",
-            "condition": "Deadstock",
-            "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/078/136/080/original/15109_00.png.png?action=crop&width=600",
-            "price": "397.00"
-
-        },
-        { 
-            "id": 14,
-            "model": "Jordan 3 Retro 'Black Cement' 2001",
-            "color": "Black/Cement",
-            "size": "10M/11.5W",
-            "condition": "Used",
-            "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/078/136/080/original/15109_00.png.png?action=crop&width=600",
-            "price": "210.00"
-
-        },
-        { 
-            "id": 15,
-            "model": "Jordan 3 Retro 'Black Cement' 2001",
-            "color": "Black/Cement",
-            "size": "11M/12.5W",
-            "condition": "Used",
-            "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/078/136/080/original/15109_00.png.png?action=crop&width=600",
-            "price": "485.00"
-
-        },
-        { 
-            "id": 16,
-            "model": "Jordan 3 Retro 'Black Cement' 2001",
-            "color": "Black/Cement",
-            "size": "9M/10.5W",
-            "condition": "Deadstock",
-            "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/078/136/080/original/15109_00.png.png?action=crop&width=600",
-            "price": "397.00"
-
-        },
-        { 
-            "id": 17,
-            "model": "Jordan 4 Retro OG 'Bred' 2019",
-            "color": "Black/Red/Cement",
-            "size": "6M/7.5W",
-            "condition": "Deadstock",
-            "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/306/456/original/461782_00.png.png?action=crop&width=600",
-            "price": "1688.00"
-
-        },
-        { 
-            "id": 18,
-            "model": "Jordan 4 Retro OG 'Bred' 2019",
-            "color": "Black/Red/Cement",
-            "size": "7M/8.5W",
-            "condition": "Deadstock",
-            "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/306/456/original/461782_00.png.png?action=crop&width=600",
-            "price": "710.00"
-
-        },
-          { 
-            "id": 19,
-            "model": "Jordan 4 Retro OG 'Bred' 2019",
-            "color": "Black/Red/Cement",
-            "size": "8M/9.5W",
-            "condition": "Deadstock",
-            "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/306/456/original/461782_00.png.png?action=crop&width=600",
-            "price": "631.00"
-
-        },
-        { 
-            "id": 20,
-            "model": "Jordan 4 Retro OG 'Bred' 2019",
-            "color": "Black/Red/Cement",
-            "size": "9M/10.5W",
-            "condition": "Deadstock",
-            "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/306/456/original/461782_00.png.png?action=crop&width=600",
-            "price": "625.00"
-
-        },
-        { 
-            "id": 21,
-            "model": "Jordan 4 Retro OG 'Bred' 2019",
-            "color": "Black/Red/Cement",
-            "size": "10M/11.5W",
-            "condition": "Deadstock",
-            "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/306/456/original/461782_00.png.png?action=crop&width=600",
-            "price": "635.00"
-
-        },
-        { 
-            "id": 22,
-            "model": "Jordan 5 Retro OG 'Bred' 2019",
-            "color": "Black/Red/Cement",
-            "size": "7M/8.5W",
-            "condition": "Deadstock",
-            "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/306/456/original/461782_00.png.png?action=crop&width=600",
-            "price": "710.00"
-
-        },
-        { 
-            "id": 23,
-            "model": "Travis Scott x Air Jordan 6 Retro 'British Khaki'",
-            "color": "Beige/Sail/Bright Crimson",
-            "size": "7M/8.5W",
-            "condition": "Deadstock",
-            "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/051/290/967/original/687698_00.png?action=crop&width=600",
-            "price": "331.00"
-
-        },
-        { 
-            "id": 24,
-            "model": "Travis Scott x Air Jordan 6 Retro 'British Khaki'",
-            "color": "Beige/Sail/Bright Crimson",
-            "size": "8M/9.5W",
-            "condition": "Deadstock",
-            "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/051/290/967/original/687698_00.png?action=crop&width=600",
-            "price": "354.00"
-
-        }, { 
-            "id": 25,
-            "model": "Travis Scott x Air Jordan 6 Retro 'British Khaki'",
-            "color": "Beige/Sail/Bright Crimson",
-            "size": "9M/10.5W",
-            "condition": "Deadstock",
-            "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/051/290/967/original/687698_00.png?action=crop&width=600",
-            "price": "388.00"
-
-        }, { 
-            "id": 26,
-            "model": "Travis Scott x Air Jordan 6 Retro 'British Khaki'",
-            "color": "Beige/Sail/Bright Crimson",
-            "size": "10M/11.5W",
-            "condition": "Deadstock",
-            "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/051/290/967/original/687698_00.png?action=crop&width=600",
-            "price": "408.00"
-
-        }, 
-        { 
-            "id": 27,
-            "model": "Travis Scott x Air Jordan 6 Retro 'British Khaki'",
-            "color": "Beige/Sail/Bright Crimson",
-            "size": "11M/12.5W",
-            "condition": "Deadstock",
-            "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/051/290/967/original/687698_00.png?action=crop&width=600",
-            "price": "423.00"
-
-        }
-    ] 
+  "jordans": [
+    {
+      "id": 1,
+      "model": "Jordan 1 Retro 'Bred' 2001",
+      "color": "Black/Red",
+      "size": "9M/10.5W",
+      "condition": "Deadstock",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/295/977/original/14054_00.png.png?action=crop&width=600",
+      "price": "750.00"
+    },
+    {
+      "id": 2,
+      "model": "Jordan 1 Retro 'Bred' 2001",
+      "color": "Black/Red",
+      "size": "8M/9.5W",
+      "condition": "Slightly Used",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/295/977/original/14054_00.png.png?action=crop&width=600",
+      "price": "304.00"
+    },
+    {
+      "id": 3,
+      "model": "Jordan 1 Retro 'Bred' 2001",
+      "color": "Black/Red",
+      "size": "7M/8.5W",
+      "condition": "Used",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/295/977/original/14054_00.png.png?action=crop&width=600",
+      "price": "170.00"
+    },
+    {
+      "id": 4,
+      "model": "Jordan 1 Retro 'Bred' 2001",
+      "color": "Black/Red",
+      "size": "11M/13W",
+      "condition": "Deadstock",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/295/977/original/14054_00.png.png?action=crop&width=600",
+      "price": "1399.00"
+    },
+    {
+      "id": 5,
+      "model": "Jordan 1 Retro 'Bred' 2001",
+      "color": "Black/Red",
+      "size": "8M/9.5W",
+      "condition": "Used",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/295/977/original/14054_00.png.png?action=crop&width=600",
+      "price": "220.00"
+    },
+    {
+      "id": 6,
+      "model": "Shelflife x Air Jordan 2 Retro Low",
+      "color": "White/Sail/Light Bone/Bright Mandarin",
+      "size": "8M/9.5W",
+      "condition": "Deadstock",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/080/197/471/original/1022685_00.png.png?action=crop&width=600",
+      "price": "126.00"
+    },
+    {
+      "id": 7,
+      "model": "Shelflife x Air Jordan 2 Retro Low",
+      "color": "White/Sail/Light Bone/Bright Mandarin",
+      "size": "6M/7.5W",
+      "condition": "Deadstock",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/080/197/471/original/1022685_00.png.png?action=crop&width=600",
+      "price": "104.00"
+    },
+    {
+      "id": 8,
+      "model": "Shelflife x Air Jordan 2 Retro Low",
+      "color": "White/Sail/Light Bone/Bright Mandarin",
+      "size": "6.5M/8W",
+      "condition": "Deadstock",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/080/197/471/original/1022685_00.png.png?action=crop&width=600",
+      "price": "134.00"
+    },
+    {
+      "id": 9,
+      "model": "Shelflife x Air Jordan 2 Retro Low",
+      "color": "White/Sail/Light Bone/Bright Mandarin",
+      "size": "7M/8.5W",
+      "condition": "Deadstock",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/080/197/471/original/1022685_00.png.png?action=crop&width=600",
+      "price": "132.00"
+    },
+    {
+      "id": 10,
+      "model": "Shelflife x Air Jordan 2 Retro Low",
+      "color": "White/Sail/Light Bone/Bright Mandarin",
+      "size": "8.5M/10W",
+      "condition": "Deadstock",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/080/197/471/original/1022685_00.png.png?action=crop&width=600",
+      "price": "139.00"
+    },
+    {
+      "id": 11,
+      "model": "Shelflife x Air Jordan 2 Retro Low",
+      "color": "White/Sail/Light Bone/Bright Mandarin",
+      "size": "9M/10.5W",
+      "condition": "Deadstock",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/080/197/471/original/1022685_00.png.png?action=crop&width=600",
+      "price": "127.00"
+    },
+    {
+      "id": 12,
+      "model": "Jordan 3 Retro 'Black Cement' 2001",
+      "color": "Black/Cement",
+      "size": "8M/9.5W",
+      "condition": "Deadstock",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/078/136/080/original/15109_00.png.png?action=crop&width=600",
+      "price": "454.00"
+    },
+    {
+      "id": 13,
+      "model": "Jordan 3 Retro 'Black Cement' 2001",
+      "color": "Black/Cement",
+      "size": "9M/10.5W",
+      "condition": "Deadstock",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/078/136/080/original/15109_00.png.png?action=crop&width=600",
+      "price": "397.00"
+    },
+    {
+      "id": 14,
+      "model": "Jordan 3 Retro 'Black Cement' 2001",
+      "color": "Black/Cement",
+      "size": "10M/11.5W",
+      "condition": "Used",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/078/136/080/original/15109_00.png.png?action=crop&width=600",
+      "price": "210.00"
+    },
+    {
+      "id": 15,
+      "model": "Jordan 3 Retro 'Black Cement' 2001",
+      "color": "Black/Cement",
+      "size": "11M/12.5W",
+      "condition": "Used",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/078/136/080/original/15109_00.png.png?action=crop&width=600",
+      "price": "485.00"
+    },
+    {
+      "id": 16,
+      "model": "Jordan 3 Retro 'Black Cement' 2001",
+      "color": "Black/Cement",
+      "size": "9M/10.5W",
+      "condition": "Deadstock",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/078/136/080/original/15109_00.png.png?action=crop&width=600",
+      "price": "397.00"
+    },
+    {
+      "id": 17,
+      "model": "Jordan 4 Retro OG 'Bred' 2019",
+      "color": "Black/Red/Cement",
+      "size": "6M/7.5W",
+      "condition": "Deadstock",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/306/456/original/461782_00.png.png?action=crop&width=600",
+      "price": "1688.00"
+    },
+    {
+      "id": 18,
+      "model": "Jordan 4 Retro OG 'Bred' 2019",
+      "color": "Black/Red/Cement",
+      "size": "7M/8.5W",
+      "condition": "Deadstock",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/306/456/original/461782_00.png.png?action=crop&width=600",
+      "price": "710.00"
+    },
+    {
+      "id": 19,
+      "model": "Jordan 4 Retro OG 'Bred' 2019",
+      "color": "Black/Red/Cement",
+      "size": "8M/9.5W",
+      "condition": "Deadstock",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/306/456/original/461782_00.png.png?action=crop&width=600",
+      "price": "631.00"
+    },
+    {
+      "id": 20,
+      "model": "Jordan 4 Retro OG 'Bred' 2019",
+      "color": "Black/Red/Cement",
+      "size": "9M/10.5W",
+      "condition": "Deadstock",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/306/456/original/461782_00.png.png?action=crop&width=600",
+      "price": "625.00"
+    },
+    {
+      "id": 21,
+      "model": "Jordan 4 Retro OG 'Bred' 2019",
+      "color": "Black/Red/Cement",
+      "size": "10M/11.5W",
+      "condition": "Deadstock",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/306/456/original/461782_00.png.png?action=crop&width=600",
+      "price": "635.00"
+    },
+    {
+      "id": 22,
+      "model": "Jordan 5 Retro OG 'Bred' 2019",
+      "color": "Black/Red/Cement",
+      "size": "7M/8.5W",
+      "condition": "Deadstock",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/306/456/original/461782_00.png.png?action=crop&width=600",
+      "price": "710.00"
+    },
+    {
+      "id": 23,
+      "model": "Travis Scott x Air Jordan 6 Retro 'British Khaki'",
+      "color": "Beige/Sail/Bright Crimson",
+      "size": "7M/8.5W",
+      "condition": "Deadstock",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/051/290/967/original/687698_00.png?action=crop&width=600",
+      "price": "331.00"
+    },
+    {
+      "id": 24,
+      "model": "Travis Scott x Air Jordan 6 Retro 'British Khaki'",
+      "color": "Beige/Sail/Bright Crimson",
+      "size": "8M/9.5W",
+      "condition": "Deadstock",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/051/290/967/original/687698_00.png?action=crop&width=600",
+      "price": "354.00"
+    },
+    {
+      "id": 25,
+      "model": "Travis Scott x Air Jordan 6 Retro 'British Khaki'",
+      "color": "Beige/Sail/Bright Crimson",
+      "size": "9M/10.5W",
+      "condition": "Deadstock",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/051/290/967/original/687698_00.png?action=crop&width=600",
+      "price": "388.00"
+    },
+    {
+      "id": 26,
+      "model": "Travis Scott x Air Jordan 6 Retro 'British Khaki'",
+      "color": "Beige/Sail/Bright Crimson",
+      "size": "10M/11.5W",
+      "condition": "Deadstock",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/051/290/967/original/687698_00.png?action=crop&width=600",
+      "price": "408.00"
+    },
+    {
+      "id": 27,
+      "model": "Travis Scott x Air Jordan 6 Retro 'British Khaki'",
+      "color": "Beige/Sail/Bright Crimson",
+      "size": "11M/12.5W",
+      "condition": "Deadstock",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/051/290/967/original/687698_00.png?action=crop&width=600",
+      "price": "423.00"
+    },
+    {
+      "model": "Jordan 6 'Infrared'",
+      "color": "Black/Infrared",
+      "size": "8",
+      "condition": "Deadstock",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/298/647/original/464372_00.png.png?action=crop&width=600",
+      "price": "384",
+      "id": 28
+    },
+    {
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/298/647/original/464372_00.png.png?action=crop&width=600",
+      "price": "384",
+      "condition": "Deadstock",
+      "size": "8",
+      "color": "Black/Infrared",
+      "model": "Jordan 6 'Infrared'",
+      "id": 29
+    },
+    {
+      "model": "Jordan 6 'Infrared'",
+      "color": "Black/Infrared",
+      "size": "9",
+      "condition": "Deadstock",
+      "price": "405",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/298/647/original/464372_00.png.png?action=crop&width=600",
+      "id": 30
+    }
+  ]
 }

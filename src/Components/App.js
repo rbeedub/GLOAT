@@ -12,11 +12,25 @@ import { useEffect } from "react";
 import { Switch, Route } from 'react-router-dom';
 
 
+
 function App() {
+  const initialData = {
+      model:'',
+      color:'',
+      size:'',
+      condition:'',
+      price:'',
+      image:'',
+    }
+
   const [jordanArray, setJordanArray] = useState ([])
 
   const [search, setSearch] = useState('')
   const [sortBy, setSortBy] = useState("size")
+
+  const [formData, setFormdata] = useState({})
+
+
 
   useEffect(() => {
     fetch('http://localhost:6001/jordans')
@@ -25,6 +39,24 @@ function App() {
   }, []
 )
 
+  function handleFormChange(e) {
+    const {name, value} = e.target;
+    setFormdata({...formData, [name]: value})
+  }
+
+  function handleSubmit (e) {
+    e.preventDefault();
+    fetch('http://localhost:6001/jordans', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(formData),
+    })
+    .then((response) => response.json())
+    .then(()=> setFormdata([...jordanArray, formData]));
+    setFormdata(initialData)
+  }
 
 
   let filteredArray = jordanArray
@@ -74,6 +106,7 @@ function App() {
       
 
  </Switch>
+
       </div>
     
    );
