@@ -103,8 +103,7 @@ function App() {
       setSearch={setSearch} />
      </Route> 
 
-      
-
+    
  </Switch>
 
       </div>
