@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Favorites from "./Favorites";
 
 
-function JordanCardDetails( {id, model, condition, color, image, price, size } ) {
+function JordanCardDetails( { id, model, condition, color, image, price, size } ) {
   const [isForSale, setIsForSale] = useState(true)
   const [favorited, setFavorited] = useState(false)
 

@@ -53,8 +53,10 @@ code {
   }
 }
 
-
-
+.backgroundImage {
+background-size: contain;
+background-repeat: no-repeat;
+}
 
 /* 
 .App {
