@@ -28,9 +28,8 @@ function Header() {
         <Link class="item" to="/jordans/form">
         Sell
         </Link>
-
     </div>
-
+        <h1 class="ui huge header"> G L O A T </h1>
 </>
 )
 };
