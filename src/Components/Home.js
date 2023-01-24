@@ -16,6 +16,19 @@ return (
             </div>
             </div>
 
+{/*        
+            <img src="https://raw.githubusercontent.com/rbeedub/GLOAT/cc1e452ba7e1912d08d3bc5795e5bc2f74c35e78/%24280.svg"/> */}
+{/*             
+            <button class="circular ui icon button">
+            <button class="massive ui button">
+            <button class="ui right floated button">
+                Right Floated
+                     Massive
+                     </button>
+                     </button>
+                     </button>
+
+   */}
             <h3>Check out our offerings:</h3>
             
      
