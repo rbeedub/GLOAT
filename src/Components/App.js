@@ -81,7 +81,7 @@ function App() {
 
  <Switch>  
     <Route path ="/jordans/form">
-     <Form />
+     <NewShoeForm handleFormChange={handleFormChange} handleSubmit={handleSubmit} />
     </Route>
 
 
