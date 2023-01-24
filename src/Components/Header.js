@@ -23,9 +23,8 @@ function Header() {
         <Link class="item" to="/jordans/new">
         Sell
         </Link>
-
     </div>
-
+ 
 </>
 )
 };
