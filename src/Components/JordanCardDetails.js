@@ -4,11 +4,12 @@ import Favorites from "./Favorites";
 
 
 function JordanCardDetails( { id, model, condition, color, image, price, size, isWanted } ) {
+
   const [isForSale, setIsForSale] = useState(true)
   const [favorited, setFavorited] = useState(false)
 
   
-    const handleClick = () => (
+  const handleClick = () => (
       setIsForSale(!isForSale)
     )
 
@@ -17,10 +18,10 @@ function JordanCardDetails( { id, model, condition, color, image, price, size, i
     <>  
         <div class="ui card">
         <div class="content">
-            <button class="ui right floated button"
-            onClick={() => setFavorited(!favorited)}>
-                {favorited ? "🖤" : "♡"}
-            </button>
+            {/* <button type="submit" class="ui right floated button"
+            onClick={updateIsWanted}>
+                {isWanted ? "🖤" : "♡"}
+            </button> */}
             <div class="center aligned header">{model}</div>
             <div class="center aligned description">
             <p> Size: {size}</p> 
