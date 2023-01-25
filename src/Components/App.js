@@ -31,7 +31,7 @@ function App() {
 )
 
 
-  let filteredArray = jordanArray
+let filteredArray = jordanArray
   .filter(shoe => shoe.model.toLowerCase().includes(search.toLowerCase()))
   .sort((shoe1, shoe2) => {
     if (sortBy === "price") {
@@ -40,6 +40,13 @@ function App() {
       return shoe1.condition.localeCompare(shoe2.condition)
     }
   })
+
+let favoritesFiltered = jordanArray
+.filter(shoe => shoe.isWanted === true)
+.map(shoe => {
+  return <Favorites key={shoe.id} {...shoe}/>
+})
+
 
 
   function onFormSubmit(newShoe){
@@ -70,7 +77,7 @@ function App() {
     </Route>
 
     <Route path="/jordans/favorites">
-     <Favorites />
+     {favoritesFiltered} 
     </Route>
     
 
