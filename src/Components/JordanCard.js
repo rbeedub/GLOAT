@@ -3,13 +3,32 @@ import { useState } from 'react';
 import JordanCardDetails from "./JordanCardDetails";
 
 
-function JordanCard( {id, model, condition, color, image, price, size } ) {
+function JordanCard( { id, model, condition, color, image, price, size, isWanted } ) {
 
 const [showDetails, setShowDetails]= useState(false)
 
+function updateIsWanted () {
+    const update = {"isWanted": !isWanted,}
 
+    fetch(`http://localhost:6001/jordans/${id}`, {
+        method: "PATCH",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(update),
+      })
+        .then((res) => res.json())
+        .then(res => console.log(res))
+
+  }
+   
+    
   return (
     <li className="card">
+          <button type="submit" class="ui right floated button"
+            onClick={updateIsWanted}>
+                {isWanted ? "🖤" : "♡"}
+            </button>
         <img src={image} alt={model} />
         <div>
             {showDetails && 
@@ -19,6 +38,7 @@ const [showDetails, setShowDetails]= useState(false)
             color={color} 
             price={price}
             size={size}
+            isWanted={isWanted}
             />}
         </div>
         <br></br>

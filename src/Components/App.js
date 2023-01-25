@@ -70,8 +70,7 @@ function App() {
     </Route>
 
     <Route path="/jordans/favorites">
-     <Favorites
-      jordanArray={filteredArray} />
+     <Favorites />
     </Route>
     
 

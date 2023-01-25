@@ -8,7 +8,7 @@
       "condition": "Deadstock",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/295/977/original/14054_00.png.png?action=crop&width=600",
       "price": "750.00",
-      "isWanted": "false"
+      "isWanted": false
     },
     {
       "id": 2,
@@ -18,7 +18,7 @@
       "condition": "Slightly Used",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/295/977/original/14054_00.png.png?action=crop&width=600",
       "price": "304.00",
-      "isWanted": "false"
+      "isWanted": true
     },
     {
       "id": 3,
@@ -28,7 +28,7 @@
       "condition": "Used",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/295/977/original/14054_00.png.png?action=crop&width=600",
       "price": "170.00",
-      "isWanted": "false"
+      "isWanted": false
     },
     {
       "id": 4,
@@ -38,7 +38,7 @@
       "condition": "Deadstock",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/295/977/original/14054_00.png.png?action=crop&width=600",
       "price": "1399.00",
-      "isWanted": "false"
+      "isWanted": false
     },
     {
       "id": 5,
@@ -48,7 +48,7 @@
       "condition": "Used",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/295/977/original/14054_00.png.png?action=crop&width=600",
       "price": "220.00",
-      "isWanted": "false"
+      "isWanted": false
     },
     {
       "id": 6,
@@ -58,7 +58,7 @@
       "condition": "Deadstock",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/080/197/471/original/1022685_00.png.png?action=crop&width=600",
       "price": "126.00",
-      "isWanted": "false"
+      "isWanted": false
     },
     {
       "id": 7,
@@ -68,7 +68,7 @@
       "condition": "Deadstock",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/080/197/471/original/1022685_00.png.png?action=crop&width=600",
       "price": "104.00",
-      "isWanted": "false"
+      "isWanted": false
     },
     {
       "id": 8,
@@ -78,7 +78,7 @@
       "condition": "Deadstock",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/080/197/471/original/1022685_00.png.png?action=crop&width=600",
       "price": "134.00",
-      "isWanted": "false"
+      "isWanted": false
     },
     {
       "id": 9,
@@ -88,7 +88,7 @@
       "condition": "Deadstock",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/080/197/471/original/1022685_00.png.png?action=crop&width=600",
       "price": "132.00",
-      "isWanted": "false"
+      "isWanted": false
     },
     {
       "id": 10,
@@ -98,7 +98,7 @@
       "condition": "Deadstock",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/080/197/471/original/1022685_00.png.png?action=crop&width=600",
       "price": "139.00",
-      "isWanted": "false"
+      "isWanted": false
     },
     {
       "id": 11,
@@ -108,7 +108,7 @@
       "condition": "Deadstock",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/080/197/471/original/1022685_00.png.png?action=crop&width=600",
       "price": "127.00",
-      "isWanted": "false"
+      "isWanted": false
     },
     {
       "id": 12,
@@ -118,7 +118,7 @@
       "condition": "Deadstock",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/078/136/080/original/15109_00.png.png?action=crop&width=600",
       "price": "454.00",
-      "isWanted": "false"
+      "isWanted": false
     },
     {
       "id": 13,
@@ -128,7 +128,7 @@
       "condition": "Deadstock",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/078/136/080/original/15109_00.png.png?action=crop&width=600",
       "price": "397.00",
-      "isWanted": "false"
+      "isWanted": false
     },
     {
       "id": 14,
@@ -138,7 +138,7 @@
       "condition": "Used",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/078/136/080/original/15109_00.png.png?action=crop&width=600",
       "price": "210.00",
-      "isWanted": "false"
+      "isWanted": false
     },
     {
       "id": 15,
@@ -148,7 +148,7 @@
       "condition": "Used",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/078/136/080/original/15109_00.png.png?action=crop&width=600",
       "price": "485.00",
-      "isWanted": "false"
+      "isWanted": false
     },
     {
       "id": 16,
@@ -158,7 +158,7 @@
       "condition": "Deadstock",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/078/136/080/original/15109_00.png.png?action=crop&width=600",
       "price": "397.00",
-      "isWanted": "false"
+      "isWanted": false
     },
     {
       "id": 17,
@@ -168,7 +168,7 @@
       "condition": "Deadstock",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/306/456/original/461782_00.png.png?action=crop&width=600",
       "price": "1688.00",
-      "isWanted": "false"
+      "isWanted": false
     },
     {
       "id": 18,
@@ -178,7 +178,7 @@
       "condition": "Deadstock",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/306/456/original/461782_00.png.png?action=crop&width=600",
       "price": "710.00",
-      "isWanted": "false"
+      "isWanted": false
     },
     {
       "id": 19,
@@ -188,7 +188,7 @@
       "condition": "Deadstock",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/306/456/original/461782_00.png.png?action=crop&width=600",
       "price": "631.00",
-      "isWanted": "false"
+      "isWanted": false
     },
     {
       "id": 20,
@@ -198,7 +198,7 @@
       "condition": "Deadstock",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/306/456/original/461782_00.png.png?action=crop&width=600",
       "price": "625.00",
-      "isWanted": "false"
+      "isWanted": false
     },
     {
       "id": 21,
@@ -208,7 +208,7 @@
       "condition": "Deadstock",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/306/456/original/461782_00.png.png?action=crop&width=600",
       "price": "635.00",
-      "isWanted": "false"
+      "isWanted": false
     },
     {
       "id": 22,
@@ -218,7 +218,7 @@
       "condition": "Deadstock",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/306/456/original/461782_00.png.png?action=crop&width=600",
       "price": "710.00",
-      "isWanted": "false"
+      "isWanted": false
     },
     {
       "id": 23,
@@ -228,7 +228,7 @@
       "condition": "Deadstock",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/051/290/967/original/687698_00.png?action=crop&width=600",
       "price": "331.00",
-      "isWanted": "false"
+      "isWanted": false
     },
     {
       "id": 24,
@@ -238,7 +238,7 @@
       "condition": "Deadstock",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/051/290/967/original/687698_00.png?action=crop&width=600",
       "price": "354.00",
-      "isWanted": "false"
+      "isWanted": false
     },
     {
       "id": 25,
@@ -248,7 +248,7 @@
       "condition": "Deadstock",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/051/290/967/original/687698_00.png?action=crop&width=600",
       "price": "388.00",
-      "isWanted": "false"
+      "isWanted": false
     },
     {
       "id": 26,
@@ -258,7 +258,7 @@
       "condition": "Deadstock",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/051/290/967/original/687698_00.png?action=crop&width=600",
       "price": "408.00",
-      "isWanted": "false"
+      "isWanted": false
     },
     {
       "id": 27,
@@ -268,7 +268,7 @@
       "condition": "Deadstock",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/051/290/967/original/687698_00.png?action=crop&width=600",
       "price": "423.00",
-      "isWanted": "false"
+      "isWanted": false
     },
     {
       "id": 28,
@@ -278,7 +278,7 @@
       "condition": "Deadstock",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/298/647/original/464372_00.png.png?action=crop&width=600",
       "price": "384",
-      "isWanted": "false"
+      "isWanted": false
     },
     {
       "id": 29,
@@ -287,8 +287,8 @@
       "condition": "Deadstock",
       "size": "8",
       "color": "Black/Infrared",
-      "model": "Jordan 6 'Infrared'", 
-      "isWanted": "false"
+      "model": "Jordan 6 'Infrared'",
+      "isWanted": false
     },
     {
       "id": 30,
@@ -298,7 +298,7 @@
       "condition": "Deadstock",
       "price": "405",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/298/647/original/464372_00.png.png?action=crop&width=600",
-      "isWanted": "false"
+      "isWanted": false
     },
     {
       "model": "Jordan 1",
@@ -308,7 +308,7 @@
       "color": "Sherbert",
       "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQkt9SziN7saqVDQpfW5Gy3eauPh8U5hhqgxCsy4Gu26s3_mOXwAAMW_rv7yuBmA1UUMnZ8c8FhTqU7YKMYtiGMVpd9f0z8CWAtTTqEudimoszp69KI9qEm",
       "id": 31,
-      "isWanted": "false"
+      "isWanted": false
     },
     {
       "model": "Air Jordan 1",
@@ -318,7 +318,7 @@
       "price": "477",
       "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQkt9SziN7saqVDQpfW5Gy3eauPh8U5hhqgxCsy4Gu26s3_mOXwAAMW_rv7yuBmA1UUMnZ8c8FhTqU7YKMYtiGMVpd9f0z8CWAtTTqEudimoszp69KI9qEm",
       "id": 32,
-      "isWanted": "false"
+      "isWanted": false
     }
   ]
 }
