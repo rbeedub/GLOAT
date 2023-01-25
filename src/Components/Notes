@@ -1,0 +1,26 @@
+
+Patch:
+
+
+    fetch('http://localhost:6001/jordans/${id}', {
+        method: "PATCH",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(updateLikesObj),
+      })
+        .then((resolve) => resolve.json())
+        .then (handleUpdateWanted)
+  
+
+
+Update function:
+
+function udpateJordan(id){
+    const updatedJordans = jordanArray.map(jordan => jordan.id === id? 
+      {...jordanArray, jordan.isWanted } : !jordan.isWanted} : 
+      jordan)
+      setJordanArray(updatedJordans);
+  }
+
+  

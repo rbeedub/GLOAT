@@ -3,27 +3,23 @@ import { useState } from 'react';
 import Favorites from "./Favorites";
 
 
-function JordanCardDetails( { id, model, condition, color, image, price, size } ) {
+function JordanCardDetails( { id, model, condition, color, image, price, size, isWanted } ) {
   const [isForSale, setIsForSale] = useState(true)
   const [favorited, setFavorited] = useState(false)
 
+  
     const handleClick = () => (
       setIsForSale(!isForSale)
     )
 
-    function addToFavorites() {
-        return <Favorites key={id} model={model} condition={condition} color={color} image={image} price={price} size={size} favorited={favorited} setFavorited={setFavorited} isForSale={isForSale} handleClick={handleClick} />
-    }
 
   return (
-    <>
-        
+    <>  
         <div class="ui card">
         <div class="content">
             <button class="ui right floated button"
             onClick={() => setFavorited(!favorited)}>
                 {favorited ? "🖤" : "♡"}
-                {favorited ? addToFavorites : null}
             </button>
             <div class="center aligned header">{model}</div>
             <div class="center aligned description">

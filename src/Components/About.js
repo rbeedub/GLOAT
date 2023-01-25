@@ -3,8 +3,9 @@ import React from "react";
 function About() {
     return (
         <div style={{ 
-            backgroundImage: `url("https://raw.githubusercontent.com/rbeedub/GLOAT/4b436f8a3eeb8d6b6e4698fc78b59c3776cff5b6/wall.svg")` 
+            backgroundImage: `url("https://github.com/rbeedub/GLOAT/blob/main/updatedWall.png?raw=true")`
           }}>
+        
         <div class="ui three column centered grid">
                <div class="column"></div>
           <div class="column">
@@ -21,11 +22,11 @@ function About() {
                 Many limited edition models were release during that time and still now. Air Jordan's line is still considered one of the most sought-after sneakers on the market and continues to be a cultural symbol of style and success.</p>
             <p>Sneakerheads are individuals who are passionate about collecting, buying, selling, and trading sneakers, particularly limited edition or rare models. They often have extensive knowledge about different sneaker brands and models, and may be actively involved in online communities or forums dedicated to the hobby. </p>
         </div>
-        <div class="column"></div>
        </div>
     </div>
 </div>
-)
+
+    )
 
 }
 
