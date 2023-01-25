@@ -23,8 +23,11 @@ const jordanDetails = jordanArray.map((shoe) => {
         <Filter
            sortBy={sortBy}
            onChangeSortBy={onChangeSortBy}/>
+      
+         <br></br>
+          <h1> JORDANS </h1>
           <br></br>
-          <h1>J O R D A N S</h1>
+     
           <br></br>
           <ul className="cards"> 
          {jordanDetails}

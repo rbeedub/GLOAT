@@ -2,7 +2,7 @@ import React from "react";
 
 
 function Favorites( {id, model, condition, color, image, price, size, setFavorited, favorited, isForSale, handleClick } ) {
-
+    
   return (
   
     <div class="ui card">
