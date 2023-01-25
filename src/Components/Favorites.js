@@ -11,6 +11,9 @@ function Favorites( {id, model, color, condition, isWanted, price, size, image} 
    
    
     return (  
+
+<div class="ui four column centered grid">
+    <div class="column">
       <div class="ui card">
      <div class="content">
          {/* <button class="ui right floated button"
@@ -31,14 +34,16 @@ function Favorites( {id, model, color, condition, isWanted, price, size, image} 
          <div class="center aligned author">
              {isForSale ? (
                          // If isInStock === true, only this button is rendered.
-                         <button onClick={handleClick} className="primary">In Stock</button>
+                         <button onClick={handleClick} className="primary">Buy</button>
                      ) : (
                          // If isInStock === false, only this button is rendered.
                          <button onClick={handleClick}>Out of Stock</button>
                      )}
+              </div>
+          </div>
          </div>
-     </div>
-     </div>
+    </div>
+</div>
 
 )}        
 
