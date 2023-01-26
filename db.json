@@ -18,7 +18,7 @@
       "condition": "Deadstock",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/295/977/original/14054_00.png.png?action=crop&width=600",
       "price": "750.00",
-      "isWanted": false
+      "isWanted": true
     },
     {
       "id": 2,
@@ -28,7 +28,7 @@
       "condition": "Slightly Used",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/295/977/original/14054_00.png.png?action=crop&width=600",
       "price": "304.00",
-      "isWanted": false
+      "isWanted": true
     },
     {
       "id": 3,
@@ -58,7 +58,7 @@
       "condition": "Used",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/295/977/original/14054_00.png.png?action=crop&width=600",
       "price": "220.00",
-      "isWanted": false
+      "isWanted": true
     },
     {
       "id": 6,
@@ -118,7 +118,7 @@
       "condition": "Deadstock",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/080/197/471/original/1022685_00.png.png?action=crop&width=600",
       "price": "127.00",
-      "isWanted": true
+      "isWanted": false
     },
     {
       "id": 12,
@@ -128,7 +128,7 @@
       "condition": "Deadstock",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/078/136/080/original/15109_00.png.png?action=crop&width=600",
       "price": "454.00",
-      "isWanted": false
+      "isWanted": true
     },
     {
       "id": 13,

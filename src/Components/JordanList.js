@@ -4,10 +4,10 @@ import Filter from './Filter';
 import Search from './Search';
 
 
-function JordanList( {jordanArray, sortBy, onChangeSortBy, search, setSearch} ) {
+function JordanList( {jordanArray, sortBy, onChangeSortBy, search, setSearch, handleFavorite } ) {
 
 const jordanDetails = jordanArray.map((shoe) => {
-  return <JordanCard key={shoe.id} {...shoe} />;
+  return <JordanCard key={shoe.id} {...shoe} handleFavorite={handleFavorite} />;
 })
 
   return (

@@ -42,11 +42,15 @@ let filteredArray = jordanArray
   })
 
 let favoritesFiltered = jordanArray
-.filter(shoe => shoe.isWanted === true)
+.filter(shoe => shoe.isWanted)
 .map(shoe => {
   return <Favorites key={shoe.id} {...shoe}/>
 })
 
+function handleFavorite(jordanObj) {
+  const updatedJordans= jordanArray.map((shoe) => shoe.id === jordanObj.id ? jordanObj: shoe)
+  setJordanArray(updatedJordans)
+}
 
 
   function onFormSubmit(newShoe){
@@ -88,7 +92,8 @@ let favoritesFiltered = jordanArray
       sortBy={sortBy}
       onChangeSortBy={setSortBy}
       search={search}
-      setSearch={setSearch} />
+      setSearch={setSearch} 
+      handleFavorite={handleFavorite}/>
      </Route> 
 
     

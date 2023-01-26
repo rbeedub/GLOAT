@@ -3,9 +3,10 @@ import { useState } from 'react';
 import JordanCardDetails from "./JordanCardDetails";
 
 
-function JordanCard( { id, model, condition, color, image, price, size, isWanted } ) {
+function JordanCard( { id, model, condition, color, image, price, size, isWanted, handleFavorite } ) {
 
 const [showDetails, setShowDetails]= useState(false)
+
 
 function updateIsWanted () {
     const update = {"isWanted": !isWanted,}
@@ -18,14 +19,14 @@ function updateIsWanted () {
         body: JSON.stringify(update),
       })
         .then((res) => res.json())
-        .then(res => console.log(res))
+        .then(res => handleFavorite(res))
 
   }
    
     
   return (
     <li className="card">
-          <button type="submit" class="ui right floated button"
+          <button type="submit" class="ui circular right floated button"
             onClick={updateIsWanted}>
                 {isWanted ? "🖤" : "♡"}
             </button>

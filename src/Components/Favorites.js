@@ -12,8 +12,8 @@ function Favorites( {id, model, color, condition, isWanted, price, size, image} 
    
     return (  
 
-<div class="ui four column centered grid">
-    <div class="column">
+<div class="ui one row centered grid">
+    <div class="row">
       <div class="ui card">
      <div class="content">
          {/* <button class="ui right floated button"
