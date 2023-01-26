@@ -20,6 +20,7 @@ function updateIsWanted () {
       })
         .then((res) => res.json())
         .then(res => handleFavorite(res))
+  
 
   }
    

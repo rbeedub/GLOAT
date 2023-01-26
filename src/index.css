@@ -30,6 +30,14 @@ code {
   margin-top: 0.5rem;
 }
 
+.box {
+  color: aqua;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
 @media (min-width: 768px) {
   .cards {
     display: flex;

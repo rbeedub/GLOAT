@@ -10,7 +10,7 @@ import '../index.css'
 import { useState } from "react";
 import { useEffect } from "react";
 import { Switch, Route } from 'react-router-dom';
-
+import Cart from './Cart';
 
 
 
@@ -22,6 +22,7 @@ function App() {
 
   const [search, setSearch] = useState('')
   const [sortBy, setSortBy] = useState("size")
+  const [favorite, setFavorite] = useState([])
 
 
   useEffect(() => {
@@ -45,18 +46,36 @@ let filteredArray = jordanArray
 let favoritesFiltered = jordanArray
 .filter(shoe => shoe.isWanted)
 .map(shoe => {
-  return <Favorites key={shoe.id} {...shoe}/>
+  return <Favorites key={shoe.id} {...shoe} removeFromFavorites={removeFromFavorites}/>
 })
+
+let cartFiltered = jordanArray
+.filter(shoe => shoe.inCart)
+.map(shoe => {
+  return <Cart key={shoe.id} {...shoe} handleInCart={handleInCart} removeFromFavorites={removeFromFavorites}/>
+})
+
+function handleInCart(jordanObj) {
+  const updatedJordansInCart= jordanArray.map((shoe) => shoe.id === jordanObj.id ? jordanObj: shoe)
+  setJordanArray(updatedJordansInCart)
+}
 
 function handleFavorite(jordanObj) {
   const updatedJordans= jordanArray.map((shoe) => shoe.id === jordanObj.id ? jordanObj: shoe)
   setJordanArray(updatedJordans)
 }
 
+function removeFromFavorites(jordanObj) {
+  console.log(`Delete me!`)
+  const removeJordans = jordanArray.filter(shoe => shoe.id !== jordanObj.id)
+  setJordanArray(removeJordans)
+}
 
-  function onFormSubmit(newShoe){
-    setJordanArray([...jordanArray, newShoe])
-  }
+
+function onFormSubmit(newShoe){
+  setJordanArray([...jordanArray, newShoe])
+}
+
 
 
   return (
@@ -65,6 +84,12 @@ function handleFavorite(jordanObj) {
      <Header />
 
  <Switch>  
+    <Route path= "/jordans/cart">
+      {cartFiltered}
+    
+    
+    </Route>
+
     <Route path ="/jordans/new">
      <SellForm 
      onFormSubmit={onFormSubmit}
@@ -94,9 +119,11 @@ function handleFavorite(jordanObj) {
       onChangeSortBy={setSortBy}
       search={search}
       setSearch={setSearch} 
-      handleFavorite={handleFavorite}/>
+      handleFavorite={handleFavorite}
+      />
      </Route> 
 
+    
     
  </Switch>
 
