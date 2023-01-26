@@ -7,15 +7,16 @@ function Filter( {sortBy, onChangeSortBy } ) {
 
 return (
     <>
-        <div class="ui right floated segment">
-            <label>Sort by  </label>
+
+        <div class="ui raised small padded right floated segment">
+            <label>  Sort by  </label>
+
             <select 
                 value={sortBy} 
                 onChange={(e) => onChangeSortBy(e.target.value)}
-                classname="ui selection dropdown"
-                >
-                    <option value="price">Price</option>
-                    <option value="condition">Condition</option>
+                classname="ui selection dropdown">
+                    <option value="price">Price: $ to $$$$</option>
+                    <option value="condition">Condition: New to Used </option>
                     </select>
             </div>
     </>

@@ -2,6 +2,7 @@ import React from "react";
 import JordanCard from "./JordanCard";
 import Filter from './Filter';
 import Search from './Search';
+import { Card } from "semantic-ui-react";
 
 
 function JordanList( {jordanArray, sortBy, onChangeSortBy, search, setSearch, handleFavorite } ) {
@@ -22,16 +23,12 @@ const jordanDetails = jordanArray.map((shoe) => {
             onChangeSortBy={onChangeSortBy}/>
         
           <br></br>
-            <h1> ALL JORDANS </h1>
-            <br></br>
-      
-            <br></br>
-            <ul className="cards"> 
-          {jordanDetails}
-          </ul>
+
+          <Card.Group itemsPerRow={5}>
+         {jordanDetails}
+           </Card.Group>
         </div>
-      
-      
+    
   </>  
   );
 }
