@@ -82,7 +82,7 @@ function handleFavorite(jordanObj) {
     </Route>
 
     <Route path="/jordans/favorites">
-     {favoritesFiltered} 
+     {favoritesFiltered.length === 0 ? <h1 style={{textAlign: 'center'}}>No favorites yet!</h1> : favoritesFiltered} 
     </Route>
     
 
