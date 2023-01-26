@@ -12,22 +12,22 @@ const jordanDetails = jordanArray.map((shoe) => {
 
   return (
     <>
-    <div>        {/* <div class="ui center aligned segment"> */}
-        <Search
-          search={search}
-          setSearch={setSearch}/>
+        <div class="ui center aligned segment">
+          <Search
+            search={search}
+            setSearch={setSearch}/>
+          
+          <Filter
+            sortBy={sortBy}
+            onChangeSortBy={onChangeSortBy}/>
         
-        <Filter
-           sortBy={sortBy}
-           onChangeSortBy={onChangeSortBy}/>
+          <br></br>
+            <h1> ALL JORDANS </h1>
+            <br></br>
       
-         <br></br>
-          <h1> JORDANS </h1>
-          <br></br>
-     
-          <br></br>
-          <ul className="cards"> 
-         {jordanDetails}
+            <br></br>
+            <ul className="cards"> 
+          {jordanDetails}
           </ul>
         </div>
       

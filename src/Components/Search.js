@@ -9,11 +9,10 @@ function handleChange(e) {
 
 
   return (
-    <div class="ui very padded left floated segment">
+    <div class="ui left floated segment">
 
         <div class="ui small icon input">
         <i class="search icon"></i>
-            <label htmlFor="search">Search Jordans:</label>
             <input
               value={search}
               type="text"
