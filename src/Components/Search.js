@@ -13,12 +13,11 @@ function handleChange(e) {
 
         <div class="ui small icon input">
         <i class="search icon"></i>
-            <label htmlFor="search"> Search Jordans:  </label>
             <input
               value={search}
               type="text"
               id="search"
-              placeholder="Type a model name to search..."
+              placeholder="Type a model to search..."
               onChange={handleChange}
             />
         </div>
