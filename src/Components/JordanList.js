@@ -28,11 +28,8 @@ const jordanDetails = jordanArray.map((shoe) => {
      
           <br></br>
           <Card.Group itemsPerRow={5}>
-           <ul className="cards"> 
          {jordanDetails}
-          </ul> 
-          </Card.Group>
-          
+           </Card.Group>
         </div>
     
   </>  

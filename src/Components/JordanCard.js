@@ -26,10 +26,6 @@ function updateIsWanted () {
     
   return (
     <li className="card">
-          <button type="submit" class="ui circular right floated button"
-            onClick={updateIsWanted}>
-                {isWanted ? "🖤" : "♡"}
-            </button>
         <img src={image} alt={model} />
         <div>
             {showDetails && 
@@ -43,10 +39,19 @@ function updateIsWanted () {
             />}
         </div>
         <br></br>
-        <button className= "ui button"
+        <div className="ui buttons">
+        <button type="submit" class="ui small basic circular right floated button"
+            onClick={updateIsWanted}>
+                {isWanted ? "🖤" : "♡"}
+            </button>
+
+        <button className= "ui tiny basic button"
         onClick={() => setShowDetails(!showDetails)}>
             {showDetails ? "Less info" : "More info"}
         </button>
+
+
+        </div>
     </li>
 );
 
