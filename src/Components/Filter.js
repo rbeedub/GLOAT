@@ -7,8 +7,10 @@ function Filter( {sortBy, onChangeSortBy } ) {
 
 return (
     <>
+
         <div class="ui raised small padded right floated segment">
             <label>  Sort by  </label>
+
             <select 
                 value={sortBy} 
                 onChange={(e) => onChangeSortBy(e.target.value)}

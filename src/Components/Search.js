@@ -9,6 +9,7 @@ function handleChange(e) {
 
 
   return (
+
     <div class="ui raised padded left floated segment">
 
         <div class="ui small icon input">
