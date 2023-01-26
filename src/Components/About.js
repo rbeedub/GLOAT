@@ -3,7 +3,7 @@ import React from "react";
 function About() {
     return (
         <div style={{ 
-            backgroundImage: `url("https://github.com/rbeedub/GLOAT/blob/main/updatedWall.png?raw=true")`
+            backgroundImage: `url("./Images/updatedWall.png")`
           }}>
         
         <div class="ui three column centered grid">
