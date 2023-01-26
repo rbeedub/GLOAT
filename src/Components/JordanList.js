@@ -24,7 +24,7 @@ const jordanDetails = jordanArray.map((shoe) => {
         
           <br></br>
 
-          <Card.Group itemsPerRow={5}>
+          <Card.Group itemsPerRow={6}>
          {jordanDetails}
            </Card.Group>
         </div>

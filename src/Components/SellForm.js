@@ -39,8 +39,8 @@ function SellForm( {onFormSubmit} ) {
     
     return (
     
-        <div class="ui three column centered grid">
-        <div class="column"></div>
+        <div class="ui two column centered grid">
+        {/* <div class="column">ONE </div> */}
           <form class="column">
           <div class="ui form" onSubmit={handleFormSubmit}>
               <div class="one field">
@@ -69,22 +69,30 @@ function SellForm( {onFormSubmit} ) {
                   <input value= {formData.image} type="text" name="image"  placeholder="Image" onChange={handleFormChange}required  />
                 </div>
               </div>
-              <div class="ui vertical stripe quote segment"></div> 
               <button class='ui left floated button' type="submit">Submit</button>
             </div>
             <div class="ui vertical stripe quote segment"></div> 
           </form>
-          <div class="column"></div>
+          {/* <div class="column">three</div> */}
           <div class="ui card">
         
             <div class="content">
               <img src={formData.image} />
-                <div class="center aligned padded header">{formData.model}</div>
+              <div class="ui very padded segment"> 
+
+                <div class="center aligned padded header">
+                  <h1>{formData.model}</h1>
+                </div>
+                </div>
+                
                 <div class="center aligned description">
+                  
+      
+
                 <p> Size: {formData.size}</p> 
                 <p> Condition: {formData.condition}</p>
-                <p>Color: {formData.color}</p>
-                <p>Price: {formData.price}</p>
+                <p> Color: {formData.color}</p>
+                <p> Price: $ {formData.price}</p>
                 </div>
             </div>
             </div>

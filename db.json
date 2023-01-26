@@ -68,7 +68,7 @@
       "condition": "Deadstock",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/080/197/471/original/1022685_00.png.png?action=crop&width=600",
       "price": "126.00",
-      "isWanted": false
+      "isWanted": true
     },
     {
       "id": 7,
