@@ -8,7 +8,7 @@ import { Card } from "semantic-ui-react";
 function JordanList( {jordanArray, sortBy, onChangeSortBy, search, setSearch, handleFavorite } ) {
 
 const jordanDetails = jordanArray.map((shoe) => {
-  return <JordanCard key={shoe.id} {...shoe} handleFavorite={handleFavorite} />;
+  return <JordanCard key={shoe.id} {...shoe} handleFavorite={handleFavorite}  />;
 })
 
   return (
@@ -24,7 +24,8 @@ const jordanDetails = jordanArray.map((shoe) => {
         
           <br></br>
 
-          <Card.Group itemsPerRow={6}>
+          <Card.Group itemsPerRow={5}>
+
          {jordanDetails}
            </Card.Group>
         </div>

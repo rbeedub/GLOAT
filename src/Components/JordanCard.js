@@ -20,6 +20,7 @@ function updateIsWanted () {
       })
         .then((res) => res.json())
         .then(res => handleFavorite(res))
+  
 
   }
    
@@ -40,6 +41,7 @@ function updateIsWanted () {
         </div>
         <br></br>
         <div className="ui buttons">
+
         <button type="submit" class="ui small basic circular right floated button"
             onClick={updateIsWanted}>
                 {isWanted ? "🖤" : "♡"}

@@ -1,5 +1,4 @@
 import React from 'react';
-;
 
 function Home() {
 
@@ -15,7 +14,6 @@ return (
             <img src="./Images/backgroundMain.svg"/>
         </div>
         </div>
-
 </>
   )
 }
