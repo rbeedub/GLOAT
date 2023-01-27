@@ -8,7 +8,7 @@ A site that will allow users to search, filter, and favorite jordans for purchas
 
 ## Visuals
 Use this gif as an example of how the app should work.
- ![gif walkthrough](https://github.com/rbeedub/SasquatchWatch/blob/main/imgs/Sasquatch%20(5).gif)
+ ![gif walkthrough](https://github.com/rbeedub/GLOAT/blob/main/Untitled%20design%20(1).gif?raw=true)
 
 
 ### FrontEnd 
