@@ -8,11 +8,15 @@ A site that will allow users to search, filter, and favorite jordans for purchas
 
 ## Contributors
 Jaz Singh
-github: Jaz8986 /
+<br />
+github: Jaz8986 
+<br />
 email: jsingh8986@yahoo.com
 
 Rebecca Wollard
+<br />
 github: rbeedub
+<br />
 LinkedIn:
 ([rbeedub](https://www.linkedin.com/in/rebecca-wollard/))
 
