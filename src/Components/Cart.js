@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from 'react';
 
 
-function Cart( {id, model, condition, color, image, price, size, isWanted, inCart, removeFromFavorites} ) {
+function Cart( {id, model, condition, color, image, price, size, isWanted, removeFromFavorites} ) {
 
 const [buyNow, setBuyNow] = useState(true)
 const [isCorrect, setIsCorrect] = useState(true)

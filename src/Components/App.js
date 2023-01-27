@@ -22,7 +22,7 @@ function App() {
 
   const [search, setSearch] = useState('')
   const [sortBy, setSortBy] = useState("size")
-  const [favorite, setFavorite] = useState([])
+
 
 
   useEffect(() => {
@@ -56,7 +56,7 @@ let cartFiltered = jordanArray
 })
 
 function handleInCart(jordanObj) {
-  const target = jordanArray.finc(shoe => shoe.id ===jordanObj.id)
+  const target = jordanArray.find(shoe => shoe.id ===jordanObj.id)
   if (!target) {
     setJordanArray([ ...jordanArray, jordanObj])
   } else {

@@ -68,9 +68,9 @@ function Favorites( {id, model, color, condition, isWanted, price, size, image, 
         <div class="extra content">
             <div class="center aligned author">
             <div class="ui buttons">
-                <button class="ui button active" onClick={deleteFav} >Delete</button>
+                <button class="ui button active" onClick={() => deleteFav} >Delete</button>
                 <div class="or"></div>
-                <button class="ui black button" onClick={updateInCart} >Add to Cart</button>
+                <button class="ui black button" onClick={() => updateInCart} >Add to Cart</button>
                 </div>
                 </div>
             </div>

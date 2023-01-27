@@ -31,7 +31,7 @@
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/295/977/original/14054_00.png.png?action=crop&width=600",
       "price": "304.00",
       "isWanted": false,
-      "inCart": true
+      "inCart": false
     },
     {
       "id": 3,
@@ -305,7 +305,7 @@
       "condition": "Deadstock",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/051/290/967/original/687698_00.png?action=crop&width=600",
       "price": "423.00",
-      "isWanted": false,
+      "isWanted": true,
       "inCart": false
     },
     {
@@ -316,7 +316,7 @@
       "condition": "Deadstock",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/298/647/original/464372_00.png.png?action=crop&width=600",
       "price": "384",
-      "isWanted": false,
+      "isWanted": true,
       "inCart": false
     },
     {
