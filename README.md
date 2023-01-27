@@ -7,7 +7,8 @@ A way to shop and sell your favorite Jordans.
 A site that will allow users to search, filter, and favorite jordans for purchase. They can submit their own jordans to re-sell and read about the company. 
 
 ## Visuals
-
+Use this gif as an example of how the app should work.
+ ![gif walkthrough](https://github.com/rbeedub/SasquatchWatch/blob/main/imgs/Sasquatch%20(5).gif)
 
 
 ### FrontEnd 
