@@ -10,6 +10,8 @@ function SellForm( {onFormSubmit} ) {
       condition:'',
       price:'',
       image:'',
+      isWanted: false,
+      inCart: false
     }
   
   const [formData, setFormdata] = useState(initialData)
@@ -38,11 +40,11 @@ function SellForm( {onFormSubmit} ) {
   
     
     return (
-    
+      <form class="ui form" onSubmit={handleFormSubmit} >
         <div class="ui two column centered grid">
         {/* <div class="column">ONE </div> */}
-          <form class="column">
-          <div class="ui form" onSubmit={handleFormSubmit}>
+       
+          <div >
               <div class="one field">
                 <div class="field">
                   <label>Model</label>
@@ -72,7 +74,7 @@ function SellForm( {onFormSubmit} ) {
               <button class='ui left floated button' type="submit">Submit</button>
             </div>
             <div class="ui vertical stripe quote segment"></div> 
-          </form>
+  
           {/* <div class="column">three</div> */}
           <div class="ui card">
         
@@ -96,7 +98,8 @@ function SellForm( {onFormSubmit} ) {
                 </div>
             </div>
             </div>
-      </div>
+         </div>
+      </form>
  
     )
     }

@@ -30,7 +30,7 @@
       "condition": "Slightly Used",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/295/977/original/14054_00.png.png?action=crop&width=600",
       "price": "304.00",
-      "isWanted": false,
+      "isWanted": true,
       "inCart": false
     },
     {
@@ -140,7 +140,7 @@
       "condition": "Deadstock",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/078/136/080/original/15109_00.png.png?action=crop&width=600",
       "price": "454.00",
-      "isWanted": true,
+      "isWanted": false,
       "inCart": false
     },
     {
@@ -316,7 +316,7 @@
       "condition": "Deadstock",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/298/647/original/464372_00.png.png?action=crop&width=600",
       "price": "384",
-      "isWanted": true,
+      "isWanted": false,
       "inCart": false
     },
     {
@@ -340,6 +340,17 @@
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/298/647/original/464372_00.png.png?action=crop&width=600",
       "isWanted": false,
       "inCart": false
+    },
+    {
+      "model": "Air Jordan One Acclimate",
+      "color": "Black / White / Yellow",
+      "size": "10",
+      "condition": "New",
+      "price": "144",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTC8uAzoBRBdfF3pI59WQSU9lcV-oFAqG2JNHlxmIH3w0A8PoRZKjRGGcgwvmdQUS9-nMEKIWQEjiegBo9BrLXxI6mUPhIqDk7DNvwwmOzMpE9Ffbst3nRmxA",
+      "isWanted": false,
+      "inCart": false,
+      "id": 31
     }
   ]
 }
