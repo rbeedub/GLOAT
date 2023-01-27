@@ -83,8 +83,8 @@ function removeFromFavorites(jordanObj) {
 }
 
 
-function onFormSubmit(newShoe){
-  setJordanArray([...jordanArray, newShoe])
+function onFormSubmit(jordanObj){
+  setJordanArray([...jordanArray, jordanObj])
 }
 
 
