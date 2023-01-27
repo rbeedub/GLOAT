@@ -6,6 +6,17 @@ A way to shop and sell your favorite Jordans.
 
 A site that will allow users to search, filter, and favorite jordans for purchase. They can submit their own jordans to re-sell and read about the company. 
 
+## Contributors
+Jaz Singh
+github: Jaz8986
+email: jsingh8986@yahoo.com
+
+Rebecca Wollard
+github: rbeedub
+LinkedIn: ([rbeedub](https://www.linkedin.com/in/rebecca-wollard/))
+
+
+
 ## Visuals
 Use this gif as an example of how the app should work.
  ![gif walkthrough](https://github.com/rbeedub/GLOAT/blob/main/Untitled%20design%20(1).gif)
