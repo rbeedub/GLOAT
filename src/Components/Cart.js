@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from 'react';
 
 
-function Cart( {id, model, condition, color, image, price, size, isWanted, removeFromFavorites} ) {
+function Cart( {id, model, condition, color, image, price, size, inCart, removeFromFavorites } ) {
 
 const [buyNow, setBuyNow] = useState(true)
 const [isCorrect, setIsCorrect] = useState(true)
@@ -21,14 +21,14 @@ const handleClick = () => (
     }
 
     function deleteFav() {
-        const updateWant = {"isWanted": !isWanted}
+        const updateCart = {inCart: !inCart}
 
     fetch(`http://localhost:6001/jordans/${id}`, {
         method: "PATCH",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(updateWant),
+        body: JSON.stringify(updateCart),
       })
         .then((res) => res.json())
         .then(res => removeFromFavorites(res))

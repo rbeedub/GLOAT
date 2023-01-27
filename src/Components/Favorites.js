@@ -1,7 +1,8 @@
 import React from "react";
 import { useState } from "react";
 
-function Favorites( {id, model, color, condition, isWanted, price, size, image, inCart, handleInCart, removeFromFavorites} ) {
+function Favorites( {id, model, color, condition, isWanted, price, size, image, inCart, handleInCart, removeFromFavorites, noDuplicatesInCart,
+    handleCart} ) {
     
     const [isForSale, setIsForSale] = useState(true)
     
@@ -10,7 +11,7 @@ function Favorites( {id, model, color, condition, isWanted, price, size, image, 
       )
    
      function deleteFav() {
-        const updateWant = {"isWanted": !isWanted}
+        const updateWant = {isWanted: !isWanted}
 
     fetch(`http://localhost:6001/jordans/${id}`, {
         method: "PATCH",
@@ -37,8 +38,11 @@ function Favorites( {id, model, color, condition, isWanted, price, size, image, 
             body: JSON.stringify(updateCart),
           })
             .then((res) => res.json())
-            .then(res => handleInCart(res))
-    
+            .then((res) => {
+                noDuplicatesInCart(res) 
+                handleCart(res)
+            }) 
+            
       }
 
    
@@ -68,9 +72,9 @@ function Favorites( {id, model, color, condition, isWanted, price, size, image, 
         <div class="extra content">
             <div class="center aligned author">
             <div class="ui buttons">
-                <button class="ui button active" onClick={() => deleteFav} >Delete</button>
+                <button class="ui button active" onClick={deleteFav} >Delete</button>
                 <div class="or"></div>
-                <button class="ui black button" onClick={() => updateInCart} >Add to Cart</button>
+                <button class="ui black button" onClick={updateInCart} >Add to Cart</button>
                 </div>
                 </div>
             </div>

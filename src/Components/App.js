@@ -23,6 +23,8 @@ function App() {
   const [search, setSearch] = useState('')
   const [sortBy, setSortBy] = useState("size")
 
+  
+
 
 
   useEffect(() => {
@@ -46,23 +48,28 @@ let filteredArray = jordanArray
 let favoritesFiltered = jordanArray
 .filter(shoe => shoe.isWanted)
 .map(shoe => {
-  return <Favorites key={shoe.id} {...shoe} removeFromFavorites={removeFromFavorites}/>
+  return <Favorites key={shoe.id} {...shoe} removeFromFavorites={removeFromFavorites} noDuplicatesInCart={noDuplicatesInCart} 
+  handleCart={handleCart} />
 })
 
 let cartFiltered = jordanArray
 .filter(shoe => shoe.inCart)
 .map(shoe => {
-  return <Cart key={shoe.id} {...shoe} handleInCart={handleInCart} removeFromFavorites={removeFromFavorites}/>
+  return <Cart key={shoe.id} {...shoe} removeFromFavorites={removeFromFavorites} noDuplicatesInCart={noDuplicatesInCart} 
+  handleCart={handleCart}/>
 })
 
-function handleInCart(jordanObj) {
-  const target = jordanArray.find(shoe => shoe.id ===jordanObj.id)
+function noDuplicatesInCart(jordanObj) {
+  const target = jordanArray.find(shoe => shoe.id === jordanObj.id)
   if (!target) {
     setJordanArray([ ...jordanArray, jordanObj])
-  } else {
+  } 
+}
+ 
+ function handleCart(jordanObj) {
   const updatedJordansInCart= jordanArray.map((shoe) => shoe.id === jordanObj.id ? jordanObj: shoe)
   setJordanArray(updatedJordansInCart)
-}}
+}
 
 function handleFavorite(jordanObj) {
   const updatedJordans= jordanArray.map((shoe) => shoe.id === jordanObj.id ? jordanObj: shoe)
@@ -89,9 +96,7 @@ function onFormSubmit(newShoe){
 
  <Switch>  
     <Route path= "/jordans/cart">
-      {cartFiltered}
-    
-    
+      {cartFiltered}  
     </Route>
 
     <Route path ="/jordans/new">
