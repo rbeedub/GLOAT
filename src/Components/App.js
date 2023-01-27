@@ -56,9 +56,13 @@ let cartFiltered = jordanArray
 })
 
 function handleInCart(jordanObj) {
+  const target = jordanArray.finc(shoe => shoe.id ===jordanObj.id)
+  if (!target) {
+    setJordanArray([ ...jordanArray, jordanObj])
+  } else {
   const updatedJordansInCart= jordanArray.map((shoe) => shoe.id === jordanObj.id ? jordanObj: shoe)
   setJordanArray(updatedJordansInCart)
-}
+}}
 
 function handleFavorite(jordanObj) {
   const updatedJordans= jordanArray.map((shoe) => shoe.id === jordanObj.id ? jordanObj: shoe)

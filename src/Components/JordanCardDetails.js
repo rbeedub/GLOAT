@@ -16,7 +16,7 @@ function JordanCardDetails( { id, model, condition, color, image, price, size, i
   return (
     <>  
         <div class="ui card">
-        <div class="content">
+        <div class="ui content">
             {/* <button type="submit" class="ui right floated button"
             onClick={updateIsWanted}>
                 {isWanted ? "🖤" : "♡"}

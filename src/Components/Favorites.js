@@ -70,7 +70,7 @@ function Favorites( {id, model, color, condition, isWanted, price, size, image, 
             <div class="ui buttons">
                 <button class="ui button active" onClick={deleteFav} >Delete</button>
                 <div class="or"></div>
-                <button class="ui positive button" onClick={updateInCart} >Add to Cart</button>
+                <button class="ui black button" onClick={updateInCart} >Add to Cart</button>
                 </div>
                 </div>
             </div>

@@ -41,6 +41,7 @@ function updateIsWanted () {
         </div>
         <br></br>
         <div className="ui buttons">
+
         <button type="submit" class="ui small basic circular right floated button"
             onClick={updateIsWanted}>
                 {isWanted ? "🖤" : "♡"}

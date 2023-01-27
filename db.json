@@ -31,7 +31,7 @@
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/295/977/original/14054_00.png.png?action=crop&width=600",
       "price": "304.00",
       "isWanted": false,
-      "inCart": false
+      "inCart": true
     },
     {
       "id": 3,
@@ -340,28 +340,6 @@
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/298/647/original/464372_00.png.png?action=crop&width=600",
       "isWanted": false,
       "inCart": false
-    },
-    {
-      "model": "Jordan 1",
-      "size": "8.5",
-      "condition": "Used",
-      "price": "145",
-      "color": "Sherbert",
-      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQkt9SziN7saqVDQpfW5Gy3eauPh8U5hhqgxCsy4Gu26s3_mOXwAAMW_rv7yuBmA1UUMnZ8c8FhTqU7YKMYtiGMVpd9f0z8CWAtTTqEudimoszp69KI9qEm",
-      "id": 31,
-      "isWanted": true,
-      "inCart": false
-    },
-    {
-      "model": "Air Jordan 1",
-      "color": "Sherbert",
-      "size": "4",
-      "condition": "Used",
-      "price": "477",
-      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQkt9SziN7saqVDQpfW5Gy3eauPh8U5hhqgxCsy4Gu26s3_mOXwAAMW_rv7yuBmA1UUMnZ8c8FhTqU7YKMYtiGMVpd9f0z8CWAtTTqEudimoszp69KI9qEm",
-      "id": 32,
-      "isWanted": false,
-      "inCart": true
     }
   ]
 }
