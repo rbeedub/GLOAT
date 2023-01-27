@@ -19,7 +19,6 @@ function App() {
   
 
   const [jordanArray, setJordanArray] = useState ([])
-
   const [search, setSearch] = useState('')
   const [sortBy, setSortBy] = useState("size")
 
@@ -96,7 +95,7 @@ function onFormSubmit(newShoe){
 
  <Switch>  
     <Route path= "/jordans/cart">
-      {cartFiltered}  
+    {cartFiltered.length === 0 ? <h1 style={{textAlign: 'center'}}>🛒 Nothing in cart!</h1> : cartFiltered} 
     </Route>
 
     <Route path ="/jordans/new">

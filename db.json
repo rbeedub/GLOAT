@@ -8,7 +8,7 @@
       "condition": "Deadstock",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/295/977/original/14054_00.png.png?action=crop&width=600",
       "price": "750.00",
-      "isWanted": false,
+      "isWanted": true,
       "inCart": false
     },
     {
@@ -30,7 +30,7 @@
       "condition": "Slightly Used",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/295/977/original/14054_00.png.png?action=crop&width=600",
       "price": "304.00",
-      "isWanted": true,
+      "isWanted": false,
       "inCart": false
     },
     {

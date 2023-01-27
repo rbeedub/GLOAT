@@ -23,6 +23,7 @@ const jordanDetails = jordanArray.map((shoe) => {
             onChangeSortBy={onChangeSortBy}/>
         
           <br></br>
+          <h1>JORDANS</h1>
 
           <Card.Group itemsPerRow={5}>
 
