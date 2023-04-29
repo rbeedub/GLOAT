@@ -23,9 +23,15 @@ github: rbeedub
 LinkedIn:
 ([rbeedub](https://www.linkedin.com/in/rebecca-wollard/))
 
+## Installation
 
-### FrontEnd 
-Our frontend is made with create-react-app
-We styled the site with semantic-ui
-
+Clone down the repo then run:
+```bash
+$ npm install
+$ json-server --watch db.json -p 6001
+```
+In another terminal run:
+```bash
+$ npm start
+```
 
