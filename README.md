@@ -4,7 +4,7 @@
 
 ## Description
 
-A site that will allow users to search, filter, and favorite jordans for purchase. They can submit their own jordans to re-sell and read about the company. 
+A site that will allow users to search, filter, and favorite jordans for purchase. They can submit their own jordans to re-sell and read about the company. Utilized a db.json file for the backend and Semantic UI for frontend styling.
 
 ## Contributors
 **Jaz Singh**
